@@ -16,7 +16,7 @@ const fontSans = FontSans({
 // });
 
 export const metadata: Metadata = {
-  title: "Zumfass // AI-Powered PDF Summarization",
+  title: "Zumfass | AI-Powered PDF Summarization",
   description:
     "Save hours of reading time. Transform lengthy PDFs into clear, accurate summaries in seconds with our advanced AI technology",
 };

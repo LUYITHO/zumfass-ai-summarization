@@ -1,12 +1,14 @@
-import { Button } from "@/components/ui/button";
-import React from "react";
+import BgGradient from "@/components/common/BgGradient";
+import HeroSection from "@/components/home/HeroSection";
+
 
 function page() {
   return (
-    <div>
-      <Button variant="outline" size={"lg"}>
-        Shadcn Button
-      </Button>
+    <div className="relative w-full">
+      <BgGradient />
+      <div className="flex flex-col">
+        <HeroSection />
+      </div>
     </div>
   );
 }
